@@ -1,4 +1,268 @@
 <!DOCTYPE html>
 <html>
-    
+    <head>
+
+        <div>
+            <img class="menu-logo" src="C:\Users\USER\Downloads\comScience_logo.png" alt="comScience_logo" width="300" height="70">  
+        </div>
+
+        <style>
+            .menu-logo{
+                filter:brightness(100%);
+                background-color: white;
+            }
+            .home-button{
+                font-family: Arial;
+                font-weight: bold;
+                color: white;
+                background-color: black;
+                font-size: 50px;
+                cursor: pointer;
+                text-decoration: underline 0.15em;
+                text-underline-offset: 0.4em;
+                transition: 0.25s ease-in ;
+                
+            }
+            .home-button:hover{
+                color: rgb(212, 178, 92);
+                text-underline-offset: 0.2em;
+
+                
+
+            }
+            .about-button{
+                font-family: Arial;
+                font-weight: bold;
+                color: white;
+                background-color: black;
+                font-size: 50px;
+                cursor: pointer;
+                text-decoration: underline 0.15em;
+                text-underline-offset: 0.4em;
+                transition: 0.25s ease-in ;
+            }
+            .about-button:hover{
+                color: rgb(212, 178, 92);
+                text-underline-offset: 0.2em;
+            }
+
+            .catalog-button{
+                font-family: Arial;
+                font-weight: bold;
+                color: white;
+                background-color: black;
+                font-size: 50px;
+                cursor: pointer;
+                text-decoration: underline 0.15em;
+                text-underline-offset: 0.4em;
+                transition: 0.25s ease-in ;
+            }
+            .catalog-button:hover{
+                color: rgb(212, 178, 92);
+                text-underline-offset: 0.2em;
+            }
+            
+            .resources-button{
+                font-family: Arial;
+                font-weight: bold;
+                color: white;
+                background-color: black;
+                font-size: 50px;
+                cursor: pointer;
+                text-decoration: underline 0.1em;
+                text-underline-offset: 0.4em;
+                transition: 0.25s ease-in ;
+            }
+            .resources-button:hover{
+                color: rgb(212, 178, 92);
+                text-underline-offset: 0.2em;
+            }
+
+
+            .events-button{
+                font-family: Arial;
+                font-weight: bold;
+                color: white;
+                background-color: black;
+                font-size: 50px;
+                cursor: pointer;
+                text-decoration: underline 0.15em;
+                text-underline-offset: 0.4em;
+                transition: 0.25s ease-in ;
+            }
+            .events-button:hover{
+                color: rgb(212, 178, 92);
+                text-underline-offset: 0.2em;
+            }
+
+            .contact-button{
+                font-family: Arial;
+                font-weight: bold;
+                color: white;
+                background-color: black;
+                font-size: 50px;
+                cursor: pointer;
+                text-decoration: underline 0.15em;
+                text-underline-offset: 0.4em;
+                transition: 0.25s ease-in ;
+            }
+            .contact-button:hover{
+                color: rgb(212, 178, 92);
+                text-underline-offset: 0.2em;
+            }
+
+            .stuProjects-button{
+                font-family: Arial;
+                font-weight: bold;
+                color: white;
+                background-color: black;
+                font-size: 50px;
+                cursor: pointer;
+                text-decoration: underline 0.15em;
+                text-underline-offset: 0.4em;
+                transition: 0.25s ease-in ;
+            }
+            .stuProjects-button:hover{
+                color: rgb(212, 178, 92);
+                text-underline-offset: 0.2em;
+            }
+
+            .staffProfiles-button{
+                font-family: Arial;
+                font-weight: bold;
+                color: white;
+                background-color: black;
+                font-size: 50px;
+                cursor: pointer;
+                text-decoration: underline 0.15em;
+                text-underline-offset: 0.4em;
+                transition: 0.25s ease-in ;
+            }
+            .staffProfiles-button:hover{
+                color: rgb(212, 178, 92);
+                text-underline-offset: 0.2em;
+            }
+
+            .partners-button{
+                font-family: Arial;
+                font-weight: bold;
+                color: white;
+                background-color: black;
+                font-size: 50px;
+                cursor: pointer;
+                text-decoration: underline 0.1em;
+                text-underline-offset: 0.6em;
+                transition: 0.25s ease-in ;
+            }
+            .partners-button:hover{
+                color: rgb(212, 178, 92);
+                text-underline-offset: 0.4em;
+            }
+
+            body{
+                margin: 0;
+                padding: o;
+            }
+            .container{
+                max-width: 900px;
+                margin: 0px;
+                overflow: hidden;
+                
+            }
+
+            .content {
+                float: left; /* Float the content to the left */
+                width: 70%; /* Set the width of the content */
+                box-sizing: border-box; /* Include padding and border in the width */
+                padding: 20px; /* Add some padding for spacing */
+            }
+
+            .sidebar {
+                float: right; /*this floats the sidebar (image) to the right */
+                width: 30%; /* Set the width of the sidebar (adjust as needed) */
+                box-sizing: border-box; /* Include padding and border in the width */
+               
+            }
+
+            .sidebar img {
+                width: 30%; 
+                height: auto;
+                position: fixed;
+                margin-top: 100px;
+            }        
+            </style>
+    </head>
+    <body style="background-color:black;">
+
+        <div class="container">
+                <div class="content">
+                    <ol>
+                        <li>
+                            <span onclick="myFunc()" class="home-button">Home</span>
+                            <script>
+                                function myFunc(){
+                                    window.location.href = "file:///C:/Users/USER/Desktop/Computer%20Science%20Website/DCIT_205_IA/homepage.html";
+                                }
+                            </script>
+                        </li>
+                        
+                        <li>
+                            <span onclick="myAbout()" class="about-button">About</span>
+                            <script>
+                                function myAbout(){
+                                    window.location.href ="file:///C:/Users/USER/Desktop/Computer%20Science%20Website/DCIT_205_IA/aboutpage.html";
+                                }
+                            </script>
+                        </li>
+                        
+                        <li>
+                            <span onclick="myCatalog()" class="catalog-button">Catalog</span>
+                            <script>
+                                function myCatalog(){
+                                    window.location.href = "file:///C:/Users/USER/Desktop/Computer%20Science%20Website/DCIT_205_IA/catalog.html";
+                                }
+
+                            </script>
+                        </li>
+                        
+                        <li>
+                            <span class="resources-button">Resources</span>
+                        </li>
+                        
+                        <li>
+                            <span class="events-button">Events</span>
+                        </li>
+                        
+                        <li>
+                            <span class="contact-button">Contact</span>
+                        </li>
+                        
+                        <li>
+                        <span class="stuProjects-button">Student Projects</span>
+                        </li>
+
+                        <li>
+                            <span class="staffProfiles-button">Staff Profiles</span>
+                        </li>
+                        
+                        <li>
+                            <span class="partners-button">Partners</span>
+                        </li>
+                        
+                    </ol>
+                </div>
+
+                <div class="sidebar">
+                    <img class="menu_img" src="C:\Users\USER\Desktop\picture\IMG-20231122-WA0014.jpg" alt="comScience_library" width="400px" height="400px" >
+                    Your browser does not support this image
+                </div>
+
+        </div>
+    </body>
+        
+    <footer>
+        
+            
+        
+    </footer>
 </html>
