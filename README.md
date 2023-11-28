@@ -1,5 +1,4 @@
 # DCIT_205_IA
-# DCIT_205_IA
 # My Unoffiial Computer Science Department website. 
 
 Introduction:
@@ -38,7 +37,7 @@ These are the screenshots of the pages of the core sections.
 
 ### Home Page: 
 ![Home page url](file:///C:/Users/USER/Desktop/Computer%20Science%20Website/DCIT_205_IA/homepage.html) 
-![PAGE 1]](![home page header](<Screenshot 2023-11-28 191415.png>))
+![PAGE 1]](![home page header]("C:\Users\USER\Desktop\picture\Screenshot 2023-11-28 220825.png")
 ![ screenshot]()
 ![]()
 ![ screenshot]()
