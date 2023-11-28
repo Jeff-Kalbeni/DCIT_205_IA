@@ -37,26 +37,26 @@ These are the screenshots of the pages of the core sections.
 
 ### Home Page: 
 ![Home page url](file:///C:/Users/USER/Desktop/Computer%20Science%20Website/DCIT_205_IA/homepage.html) 
-![PAGE 1](![home page header](<Screenshot%2023-11-28%220825.png>)
+![home page header](<Screenshot%2023-11-28%220825.png>)
 ![ screenshot]()
 ![]()
 ![ screenshot]()
 
 ### About: 
-![About screenshot](![About header](<About header.png>))
-![About screenshot](![Banner Image on about page](<Screenshot%2023-11-28%194705.png>))
-![About screenshot](![Text on about page](<Screenshot%2023-11-28%195135.png>))
-![About screenshot](![Three images of the department and text that describes ](<Screenshot%2023-11-28%191415-1.png>))
+[About header](<About header.png>)
+[Banner Image on about page](<Screenshot%2023-11-28%194705.png>)
+[Text on about page](<Screenshot%2023-11-28%195135.png>)
+[Three images of the department and text that describes ](<Screenshot%2023-11-28%191415-1.png>)
 
 
 ### Menu: 
 
-![Menu Page screenshot](![This a screenshot of the menu page](<Screenshot%2023-11-28%202932.png>))
+[This a screenshot of the menu page](<Screenshot%2023-11-28%202932.png>)
 
 ### Student Projects: 
-![Student project screenshot](![Student project page header](<Screenshot%2023-11-28%205342.png>))
-![Student project screenshot](![A short description of the student projects](<Screenshot%2023-11-28%205623.png>))
-![Student project screenshot](![This section illustrates general student projets](<Screenshot%2023-11-28%211010.png>))
+[Student project page header](<Screenshot%2023-11-28%205342.png>)
+[A short description of the student projects](<Screenshot%2023-11-28%205623.png>)
+[This section illustrates general student projets](<Screenshot%2023-11-28%211010.png>)
 
 # Lessons learned<hr>
 THE LESSONS I LEARNT
