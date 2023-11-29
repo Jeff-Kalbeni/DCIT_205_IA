@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <div>
+        <div class="navb">
             <img class="menu-logo" src="C:\Users\USER\Downloads\comScience_logo.png" alt="comScience_logo" width="300" height="70">  
+            <a onclick="myFunc()"  class="menu-option">Menu</a></li>
+                <script>
+                    function myFunc(){
+                        window.location.href = "file:///C:/Users/USER/Desktop/Computer%20Science%20Website/DCIT_205_IA/menu.html";
+                    }
+                </script>
         </div>
 
         <style>
+            .navb{
+                display: inline-flex;
+            }
             .menu-logo{
                 filter:brightness(100%);
                 background-color: white;
@@ -20,31 +29,35 @@
             .about-image{
                 margin-left: 120px;
                 margin-right: 120px;
+                position: relative;
+                text-align: center;
+                color: white;
                 
             }
             .image-banner{
                 font-family: Times New Roman;
                 font-weight: bold;
-                font-size: 30px;
-                margin-left: 400px;
-                margin-bottom: 0px;
-                padding-bottom: 0px;
-                padding-top: 0px;
-                margin-top: 0px;
-                transform: overlay;
+                font-size: 70px;
+                width: 1000px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
             }
             .welMessage{
                 font-family: Times New Roman;
                 font-weight: bold;
-                color: white;
-                font-size: 20px;
+                color: rgb(39, 39, 170);
+                font-size: 30px;
                 margin-left: 300px;
-                height: 2px;
+                height: 15px;
                 margin-bottom: 0px;
+                text-align: justify;
+                margin-top: 0;
             }
             .firstPara{
                 font-family: Times New Roman;
-                color: rgb(212, 233, 235);
+                color: rgb(44, 44, 122);
                 font-size: 17px;
                 margin-bottom: 0px;
                 padding-top: 0px;
@@ -54,31 +67,150 @@
             .secondPara{
                 font-family: Times New Roman;
                 font-size: 17px;
-                color: rgb(212, 233, 235);
+                color: rgb(44, 44, 122);
             }
             .thirdPara{
                 font-family: Times New Roman;
                 font-size: 17px;
-                color: rgb(212, 233, 235);   
+                color: rgb(44, 44, 122);   
             }
+            .last_par{
+                font-family: Times New Roman;
+                font-size: 17px;
+                color: rgb(44, 44, 122);  
+            }
+            .more{
+                cursor: pointer;
+            }
+            .more:hover{
+                text-decoration: underline;
+                color: red;
+            }
+            .front-view{
+                display: inline-flex;
+            }
+            .rowthree{
+                height: 500px;
+                width: 400px;
+                background-color: grey;
+                margin-top: 100px;
+                margin-left: 50px;
+                margin-bottom: 0;
+            }
+
+            .rowfour{
+                height: 500px;
+                width: 400px;
+                background-color: rgb(74, 74, 235);
+                margin-top: 100px;
+                margin-left: 40px;
+            }
+
+            .rowfive{
+                height: 500px;
+                width: 400px;
+                background-color: grey;
+                margin-top: 100px;
+                margin-left: 40px;
+            }
+            .num1{
+                padding: 10px;
+                margin: 15px;
+            }
+
+            .num2{
+                padding: 10px;
+                margin: 15px;
+            }
+            .num3{
+                padding: 10px;
+                margin: 15px;
+            }
+            .tit1{
+                font-family: Times New Roman;
+                font-size: 25px;
+                font-weight: bold;
+                color: white;
+                text-align: center;
+                height: 2px;
+                margin-top: 2px;
+            }
+            .tit2{
+                font-family: Times New Roman;
+                font-size: 25px;
+                font-weight: bold;
+                color: white;
+                text-align: center;
+                height: 4px;
+                margin-top: 0px;
+            }
+            .tit3{
+                font-family: Times New Roman;
+                font-size: 25px;
+                font-weight: bold;
+                color: white;
+                text-align: center;
+                height: 2px;
+                margin-top: 0px;
+            }
+            .ti1{
+                font-family: Times New Roman;
+                font-size: 11px;
+                font-weight: bold;
+                color: rgb(253, 253, 253);
+                margin-top: 2px;
+                width: 350px;
+                margin-left: 20px;
+                height: 30px;
+            }
+
+            .ti2{
+                font-family: Times New Roman;
+                font-size: 15px;
+                font-weight: bold;
+                color: rgb(253, 253, 253);
+                margin-top: 2px;
+                width: 350px;
+                margin-left: 20px;
+                height: 30px;
+            }
+            .ti3{
+                font-family: Times New Roman;
+                font-size: 14px;
+                font-weight: bold;
+                color: rgb(253, 253, 253);
+                margin-top: 2px;
+                width: 350px;
+                margin-left: 20px;
+                height: 30px;
+            }
+            .menu-option{
+                font-family: Arial;
+                font-weight: bold;
+                font-size: 20px;
+                color: white;
+                background-color: black;
+                margin-left: 900px;
+                margin-top: 0px;
+                padding: 20px;
+            }
+            .menu-option:hover{
+                color: #b6b6ec;
+                cursor: pointer;
+                opacity: 0.8;
+            }
+            .menu-option:active{
+                color: rgb(151, 140, 73);
+            }
+
         </style>
     </head>
-    <body class="container" style="background:rgb(110, 98, 79);">
+    <body class="container" style="background:rgb(250, 245, 237);">
         
-        <div class="image-banner">
-            <h1>The Nest of Geniuses</h1>
+        <div class="about-image">
+                <img src="c:\Users\USER\Downloads\alexandre-debieve-FO7JIlwjOtU-unsplash.jpg" height="300px" width="1100px">
+                <div class="image-banner">The Nest of Geniuses</div>
         </div>
-        <section>
-            
-
-            <div class="about-image">
-                
-                <img src="C:\Users\USER\Downloads\alexandre-debieve-FO7JIlwjOtU-unsplash.jpg.crdownload" height="300px" width="1100px">
-                
-            </div>
-        </section>
-        
-        
         
         <section class="department-info">
             <div>
@@ -95,9 +227,46 @@
                 </p>
                 <p class="thirdPara">
                     The Department offers two undergraduate degree programmes, Bachelor of Science in Computer Science Single-Major (3:2:1:1) and Major-Minor (3:2:2:1) as well as Bachelor of Science in Information Technology.
+                    
                 </p>
+                <a class="last_par">Visit the menu <span onclick="forMore()" class="more">for more...</span></a>
+                <script>
+                    function formore(){
+                        window.location.href="file:///C:/Users/USER/Desktop/Computer%20Science%20Website/DCIT_205_IA/menu.html";
+                    }
+                </script>
         </section>
         
+        
+        <div class="front-view">
+            <div class="rowthree">
+                <img class="num1" src="C:\Users\USER\Desktop\picture\IMG-20231122-WA0016.jpg" height="300" width="350">
+                <p class="tit1">Our Organiation</p>
+                <p class="ti1"> The University of Ghana is one of the Africa's most preeminent public universities. Our impact on individuals, our region and the world is profound.
+                    whether we are launching young people into a boundless future or confronting the grand challenges of our time through dauntless research.
+                    UG educates more than 38,000students annually, with approximately 2.64% being computer science students.
+                    We turn ideas into impact and transform the world around us. For more about our impact, visit our news site, UG News.
+                </p>
+            </div>
+
+            <div class="rowfour">
+                <img  class="num2"src="C:\Users\USER\Desktop\picture\IMG-20231122-WA0017.jpg" height="300" width="350">
+                <p class="tit2">Our Community</p>
+                <p class="ti2"> If you are inspired by a big challenge,
+                    you've come to the right place! The computer science community at the univrersity of Ghana encourages
+                    it's people to be vibrant and brave in taking on new challenges that push boundries beyond imagination.
+                </p>
+            </div>
+
+            <div class="rowfive">
+                <img class="num3"src="C:\Users\USER\Desktop\picture\IMG-20231122-WA0012.jpg" height="300" width="350">
+                <p class="tit3">Distance Education</p>
+                <p class="ti3"> Experience a UG-CDCD classroom from wherever you are.
+                    Take advantage of real-time lectures and personal interaction with professors through a suite of online delivery options, customizing your degree to fit your schedule.
+                    Our online classroom maintains the same level of academic rigor, while providing students with more ways of learning.
+                </p>
+            </div>
+        </div>
     </body>
     <footer>
         

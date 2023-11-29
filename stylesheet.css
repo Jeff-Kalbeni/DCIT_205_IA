@@ -1,0 +1,136 @@
+.loc{
+    font-family: Times New Roman;
+    font-size: 15px;
+    font-weight: bold;
+}
+li{
+    display: inline-block;
+    margin-right:0px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+    width: 130px;
+    margin-left: 1170px;
+}
+
+.Header{
+    background-color: none;
+    padding: 10px;
+    display: inline-flex;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.contact{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;;
+    background-color: navy;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    height: 200px;
+    width: 1200px;
+    margin-top: 700px;
+    margin-left: 60px;
+    margin-right: 60px;
+    /* overflow: auto; */
+}
+.page-name{
+    font-family: Arial;
+    display: block;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 200px;
+
+}
+
+.background-video{
+    opacity: 0.5;
+    font-size:70px;
+    overflow: auto;
+    margin-top: 100px;
+}
+
+.search-button{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.menu-option{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
+}
+
+.search-button:hover{
+    color: rgb(191, 191, 245);
+    cursor: pointer;
+    opacity: 0.8;
+}
+.search-button:active{
+    opacity: 0.5;
+}
+.menu-option:hover{
+    color: #b6b6ec;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.menu-option:active{
+    color: rgb(151, 140, 73);
+}
+.navbar{
+    height: 80px;
+    width: 1350px;
+    background-color: rgb(226, 209, 209);
+    
+}
+.video-banner{
+    overflow: auto;
+    margin-top: 0px;
+    margin-left: 210px;
+    font-family: Times New Roman;
+    font-size: 40px;
+    color: white;
+    padding-left: 20px;
+    
+}
+.footer-info{
+    /* background-color: black; */
+    height: 200px;
+    width: 200px; 
+}
+.uni{
+    font-family: Times New Roman;
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+}
+.opp{
+    font-family: Times New Roman;
+    font-size: 15px;
+    font-weight: bold;
+    height: o;
+}

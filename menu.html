@@ -75,7 +75,7 @@
             }
             .resources-button:hover{
                 color: rgb(212, 178, 92);
-                text-underline-offset: 0.2em;
+                text-underline-offset: 0.15em;
             }
 
 
@@ -151,12 +151,12 @@
                 font-size: 50px;
                 cursor: pointer;
                 text-decoration: underline 0.1em;
-                text-underline-offset: 0.6em;
+                text-underline-offset: 0.4em;
                 transition: 0.25s ease-in ;
             }
             .partners-button:hover{
                 color: rgb(212, 178, 92);
-                text-underline-offset: 0.4em;
+                text-underline-offset: 0.1em;
             }
 
             body{
@@ -226,11 +226,21 @@
                         </li>
                         
                         <li>
-                            <span class="resources-button">Resources</span>
+                            <span onclick="myResources()" class="resources-button">Resources</span>
+                            <script>
+                                function myResources(){
+                                    window.location.href="file:///C:/Users/USER/Desktop/Computer%20Science%20Website/DCIT_205_IA/resources.html";
+                                }
+                            </script>
                         </li>
                         
                         <li>
-                            <span class="events-button">Events</span>
+                            <span onclick="myEvent()" class="events-button">Events</span>
+                            <script>
+                                function myEvent(){
+                                    window.location.href="file:///C:/Users/USER/Desktop/Computer%20Science%20Website/DCIT_205_IA/events.html";
+                                }
+                            </script>
                         </li>
                         
                         <li>
@@ -238,22 +248,37 @@
                         </li>
                         
                         <li>
-                        <span class="stuProjects-button">Student Projects</span>
-                        </li>
+                        <span onclick="myPro()" class="stuProjects-button">Student Projects</span>
+                            <script>
+                                function myPro(){
+                                    window.location.href="file:///C:/Users/USER/Desktop/Computer%20Science%20Website/DCIT_205_IA/stu_projects.html";
+                                }
+                            </script>
+                    </li>
 
                         <li>
-                            <span class="staffProfiles-button">Staff Profiles</span>
+                            <span onclick="myStaff()" class="staffProfiles-button">Staff Profiles</span>
+                            <script>
+                                function myStaff(){
+                                    window.location.href="file:///C:/Users/USER/Desktop/Computer%20Science%20Website/DCIT_205_IA/staff_profiles.html";
+                                }
+                            </script>
                         </li>
                         
                         <li>
-                            <span class="partners-button">Partners</span>
+                            <span onclick="partner()" class="partners-button">Partners</span>
+                            <script>
+                                function partner(){
+                                    window.location.href="file:///C:/Users/USER/Desktop/Computer%20Science%20Website/DCIT_205_IA/partners.html";
+                                }
+                            </script>
                         </li>
                         
                     </ol>
                 </div>
 
                 <div class="sidebar">
-                    <img class="menu_img" src="C:\Users\USER\Desktop\picture\IMG-20231122-WA0014.jpg" alt="comScience_library" width="400px" height="400px" >
+                    <img class="menu_img" src="c:\Users\USER\Desktop\picture\IMG-20231122-WA0019.jpg" alt="comScience_library" width="400px" height="400px" >
                     Your browser does not support this image
                 </div>
 
