@@ -1,4 +1,5 @@
 # DCIT_205_IA
+<<<<<<< HEAD
 # My Unofficial Computer Science Department website. 
 
 Introduction:
@@ -72,3 +73,6 @@ How to use JavaScript:
 I learned how to use JavaScript (onclick) function to link one web page to another. I hope to put in more effort from here to build more systems using the knowledge I gained from this project and the ones yet to come.
 
 Thank you.
+=======
+
+>>>>>>> 744c417c055de5e3ab8add5aa539b8a01ed20666
