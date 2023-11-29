@@ -1,5 +1,5 @@
 # DCIT_205_IA
-# My Unoffiial Computer Science Department website. 
+# My Unofficial Computer Science Department website. 
 
 Introduction:
 Welcome to the unofficial University of Ghana Computer Science Department website! This platform is aimed at providing a comprehensive and user-friendly resource for students, faculty, an applicant and anyone interested in the exciting world of computer science.
